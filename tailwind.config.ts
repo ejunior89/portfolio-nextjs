@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				portfolio: {
+					blue: '#0ea5e9',
+					darkBlue: '#0c4a6e',
+					lightBlue: '#bae6fd',
+					gray: '#334155',
+					lightGray: '#f1f5f9'
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				mono: ['Fira Code', 'monospace'],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +96,38 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				"fade-in": {
+					"0%": {
+						opacity: "0",
+						transform: "translateY(10px)"
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateY(0)"
+					}
+				},
+				"fade-out": {
+					"0%": {
+						opacity: "1",
+						transform: "translateY(0)"
+					},
+					"100%": {
+						opacity: "0",
+						transform: "translateY(10px)"
+					}
+				},
+				"slide-in-right": {
+					"0%": { transform: "translateX(100%)" },
+					"100%": { transform: "translateX(0)" }
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				"fade-in": "fade-in 0.4s ease-out",
+				"fade-out": "fade-out 0.4s ease-out",
+				"slide-in-right": "slide-in-right 0.4s ease-out",
 			}
 		}
 	},
