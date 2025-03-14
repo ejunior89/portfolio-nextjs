@@ -46,42 +46,42 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 199 89% 48%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 83% 74%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 262 83% 74%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 199 89% 48%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 262 83% 74%;
     
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary: 262 83% 74%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 262 83% 74%;
   }
 }
 
@@ -103,12 +103,12 @@
   }
 
   .section-title {
-    @apply text-3xl sm:text-4xl font-bold mb-6 sm:mb-10 text-portfolio-darkBlue relative;
+    @apply text-3xl sm:text-4xl font-bold mb-6 sm:mb-10 text-portfolio-darkBlue dark:text-white relative;
   }
 
   .section-title::after {
     content: '';
-    @apply absolute left-0 -bottom-2 w-16 h-1 bg-portfolio-blue;
+    @apply absolute left-0 -bottom-2 w-16 h-1 bg-portfolio-blue dark:bg-portfolio-purple;
   }
 
   .code {
@@ -122,7 +122,7 @@
 
 .underline-animation::after {
   content: '';
-  @apply absolute w-full scale-x-0 h-0.5 bottom-0 left-0 bg-portfolio-blue origin-bottom-right transition-transform duration-300;
+  @apply absolute w-full scale-x-0 h-0.5 bottom-0 left-0 bg-portfolio-blue dark:bg-portfolio-purple origin-bottom-right transition-transform duration-300;
 }
 
 .underline-animation:hover::after {

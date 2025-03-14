@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X, Github, Linkedin, Mail } from "lucide-react";
 import { Link } from 'react-router-dom';
+import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,7 +41,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <Link to="/" className="font-bold text-xl text-portfolio-blue">
+            <Link to="/" className="font-bold text-xl text-portfolio-blue dark:text-portfolio-purple">
               <span className="font-mono">&lt;</span>Dev<span className="font-mono">/&gt;</span>
             </Link>
           </div>
@@ -51,7 +52,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="underline-animation text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-portfolio-blue dark:hover:text-portfolio-blue"
+                className="underline-animation text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-portfolio-blue dark:hover:text-portfolio-purple"
               >
                 {item.name}
               </a>
@@ -59,13 +60,14 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
+            <ThemeToggle />
             {socialLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-portfolio-blue transition-colors"
+                className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                 aria-label={link.name}
               >
                 {link.icon}
@@ -74,7 +76,8 @@ const Header = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle />
             <Button
               variant="ghost"
               size="icon"
@@ -99,7 +102,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="block py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:text-portfolio-blue dark:hover:text-portfolio-blue"
+                className="block py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:text-portfolio-blue dark:hover:text-portfolio-purple"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.name}
@@ -112,7 +115,7 @@ const Header = () => {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-portfolio-blue transition-colors"
+                  className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                   aria-label={link.name}
                 >
                   {link.icon}
