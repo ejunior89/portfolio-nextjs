@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -58,7 +57,10 @@ const Skills = () => {
                         <span className="text-sm font-medium">{skill.name}</span>
                         <span className="text-sm font-medium text-gray-500">{skill.level}%</span>
                       </div>
-                      <Progress value={skill.level} className="h-2 bg-gray-200" indicatorClassName="bg-portfolio-blue" />
+                      <Progress 
+                        value={skill.level} 
+                        className="h-2 bg-gray-200" 
+                      />
                     </div>
                   ))}
                 </div>
