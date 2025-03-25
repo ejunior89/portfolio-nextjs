@@ -11,7 +11,6 @@ const skillCategories = [
       { name: "JavaScript", level: 68 },
       { name: "BootStrap", level: 70 },
       { name: "TypeScript", level: 56 },
-      { name: "NextJS", level: 62 },
     ]
   },
   {
@@ -21,9 +20,8 @@ const skillCategories = [
       { name: "Spring Boot", level: 66 },
       { name: "MySql", level: 45 },
       { name: "PostgreSQL", level: 60 },
-      { name: "Hibernate", level: 65 },
-      {name: "JPA", level: 60 },
-      {name: "REST API", level: 60 },
+      {name: "Python", level: 60 },
+      {name: "Django Rest Framework", level: 60 },
     ]
   },
   {
