@@ -17,13 +17,13 @@ const Hero = () => {
         <div className="max-w-3xl">
           <p className="text-portfolio-blue font-mono mb-2">Olá, meu nome é</p>
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-portfolio-darkBlue dark:text-white mb-4">
-            Seu Nome
+            Elio Junior
           </h1>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-portfolio-gray dark:text-gray-300 mb-6">
-            Desenvolvedor Front-end
+            Desenvolvedor Back-end
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-            Eu sou um desenvolvedor especializado em criar experiências digitais excepcionais. 
+            Eu sou um desenvolvedor Java. 
             Atualmente, estou focado em construir aplicações web acessíveis e responsivas 
             utilizando as tecnologias mais modernas.
           </p>
