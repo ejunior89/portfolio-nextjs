@@ -14,11 +14,11 @@ const Footer = () => {
               <span className="font-mono">&lt;</span>Dev<span className="font-mono">/&gt;</span>
             </div>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Desenvolvedor Front-end criando experiências digitais excepcionais e interfaces intuitivas.
+              Desenvolvedor Back-end criando experiências digitais excepcionais.
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://github.com/seuusuario" 
+                href="https://github.com/ejunior89" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
@@ -27,7 +27,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/seuusuario" 
+                href="https://linkedin.com/in/ejunior89" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
@@ -36,16 +36,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="https://twitter.com/seuusuario" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a 
-                href="mailto:seu@email.com" 
+                href="mailto:eliomaiajunior@proton.me" 
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                 aria-label="Email"
               >
@@ -78,15 +69,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4 text-portfolio-darkBlue dark:text-white">Contato</h3>
             <address className="not-italic">
-              <p className="text-gray-600 dark:text-gray-300 mb-2">São Paulo, SP - Brasil</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-2">Porto Velho, RO- Brasil</p>
               <p className="text-gray-600 dark:text-gray-300 mb-2">
-                <a href="mailto:seu@email.com" className="hover:text-portfolio-blue dark:hover:text-portfolio-purple">
-                  seu@email.com
-                </a>
-              </p>
-              <p className="text-gray-600 dark:text-gray-300">
-                <a href="tel:+5511999999999" className="hover:text-portfolio-blue dark:hover:text-portfolio-purple">
-                  +55 (11) 99999-9999
+                <a href="mailto:eliomaiajunior@proton.me" className="hover:text-portfolio-blue dark:hover:text-portfolio-purple">
+                  eliomaiajunior@proton.me
                 </a>
               </p>
             </address>
