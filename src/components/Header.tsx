@@ -31,9 +31,9 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: <Github className="h-5 w-5" />, href: 'https://github.com/seuusuario' },
-    { name: 'LinkedIn', icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/seuusuario' },
-    { name: 'Email', icon: <Mail className="h-5 w-5" />, href: 'mailto:seu@email.com' },
+    { name: 'GitHub', icon: <Github className="h-5 w-5" />, href: 'https://github.com/ejunior89' },
+    { name: 'LinkedIn', icon: <Linkedin className="h-5 w-5" />, href: 'https://linkedin.com/in/ejunior89' },
+    { name: 'Email', icon: <Mail className="h-5 w-5" />, href: 'mailto:eliomaiajunior@proton.me' },
   ];
 
   return (
