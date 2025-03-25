@@ -8,44 +8,24 @@ import { Badge } from "@/components/ui/badge";
 const projects = [
   {
     id: 1,
-    title: "E-commerce App",
-    description: "Uma aplicação completa de e-commerce com carrinho de compras, autenticação de usuário e pagamentos.",
+    title: "Flix Api",
+    description: "Uma aplicação completa de gerenciamento de filme, com autenticação de usuário.",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveLink: "https://exemplo.com",
-    sourceCode: "https://github.com/exemplo",
+    tags: ["Python", "Django Rest Framework", "SqLite"],
+    liveLink: "https://github.com/ejunior89/Flix-Api-DJango-Master-PycodeBr",
+    sourceCode: "https://github.com/ejunior89/Flix-Api-DJango-Master-PycodeBr",
     featured: true
   },
   {
     id: 2,
-    title: "Dashboard Admin",
-    description: "Dashboard administrativo com gráficos, tabelas e ferramentas de análise de dados.",
+    title: "SGE",
+    description: "Sistema de Gestão de Estoque, um projeto desenvolvido em Django e Bootstrap 5 para facilitar o gerenciamento de estoque.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    tags: ["React", "TypeScript", "TailwindCSS", "Chart.js"],
-    liveLink: "https://exemplo.com",
-    sourceCode: "https://github.com/exemplo",
+    tags: ["Django", "BootStrap", "SqLite"],
+    liveLink: "https://github.com/ejunior89/SGE",
+    sourceCode: "https://github.com/ejunior89/SGE",
     featured: true
   },
-  {
-    id: 3,
-    title: "Aplicativo de Notas",
-    description: "Aplicativo para criar e gerenciar notas com recursos de marcação e sincronização em nuvem.",
-    image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-    tags: ["React", "Firebase", "Redux"],
-    liveLink: "https://exemplo.com",
-    sourceCode: "https://github.com/exemplo",
-    featured: true
-  },
-  {
-    id: 4,
-    title: "API RESTful",
-    description: "API RESTful completa para gerenciamento de usuários e dados.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-    tags: ["Node.js", "Express", "MongoDB", "JWT"],
-    liveLink: null,
-    sourceCode: "https://github.com/exemplo",
-    featured: false
-  }
 ];
 
 const Projects = () => {
@@ -166,7 +146,7 @@ const Projects = () => {
         <div className="text-center mt-16">
           <Button className="bg-portfolio-blue hover:bg-portfolio-darkBlue text-white">
             <a 
-              href="https://github.com/seuusuario" 
+              href="https://github.com/ejunior89" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center"

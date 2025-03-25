@@ -7,31 +7,31 @@ const skillCategories = [
   {
     name: "Front-end",
     skills: [
-      { name: "HTML/CSS", level: 95 },
-      { name: "JavaScript", level: 90 },
-      { name: "React", level: 85 },
-      { name: "TypeScript", level: 80 },
-      { name: "NextJS", level: 75 },
+      { name: "HTML/CSS", level: 70 },
+      { name: "JavaScript", level: 68 },
+      { name: "BootStrap", level: 70 },
+      { name: "TypeScript", level: 56 },
+      { name: "NextJS", level: 62 },
     ]
   },
   {
     name: "Back-end",
     skills: [
-      { name: "Node.js", level: 85 },
-      { name: "Express", level: 80 },
-      { name: "MongoDB", level: 75 },
-      { name: "PostgreSQL", level: 70 },
-      { name: "GraphQL", level: 65 },
+      { name: "Java", level: 60 },
+      { name: "Spring Boot", level: 66 },
+      { name: "MySql", level: 45 },
+      { name: "PostgreSQL", level: 60 },
+      { name: "Hibernate", level: 65 },
+      {name: "JPA", level: 60 },
+      {name: "REST API", level: 60 },
     ]
   },
   {
     name: "Outras Ferramentas",
     skills: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 65 },
-      { name: "CI/CD", level: 70 },
-      { name: "Jest", level: 75 },
+      { name: "Git", level: 50 },
+      { name: "Docker", level: 55 },
+      { name: "CI/CD", level: 50 },
     ]
   }
 ];
@@ -76,11 +76,9 @@ const Skills = () => {
             {[
               "Trabalho em Equipe",
               "Comunicação",
-              "Resolução de Problemas",
+              "Proatividade",
               "Pensamento Crítico",
               "Adaptabilidade",
-              "Gerenciamento de Tempo",
-              "Liderança",
               "Empatia",
               "Criatividade",
               "Organização",
