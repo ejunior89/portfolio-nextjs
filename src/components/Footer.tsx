@@ -17,26 +17,26 @@ const Footer = () => {
               Desenvolvedor Back-end criando experiências digitais excepcionais.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="https://github.com/ejunior89" 
-                target="_blank" 
+              <a
+                href="https://github.com/ejunior89"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                 aria-label="GitHub"
               >
                 <Github className="h-5 w-5" />
               </a>
-              <a 
-                href="https://linkedin.com/in/ejunior89" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/in/ejunior89"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a 
-                href="mailto:eliomaiajunior@proton.me" 
+              <a
+                href="mailto:eliomaiajunior@proton.me"
                 className="text-gray-500 hover:text-portfolio-blue dark:hover:text-portfolio-purple transition-colors"
                 aria-label="Email"
               >
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-8 border-t border-gray-200 dark:border-gray-800 text-center text-gray-600 dark:text-gray-300">
-          <p>&copy; {year} Seu Nome. Todos os direitos reservados.</p>
+          <p>&copy; {year} Elio Junior. Todos os direitos reservados.</p>
           <p className="mt-2 text-sm">
             Desenvolvido com React, TypeScript e Tailwind CSS
           </p>
