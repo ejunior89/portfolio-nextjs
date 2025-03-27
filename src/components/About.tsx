@@ -20,23 +20,31 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-4 text-portfolio-darkBlue dark:text-white">Educação</h3>
               <Card className="mb-4">
                 <CardContent className="p-6">
-                  <h4 className="font-bold">Bacharel em Ciência da Computação</h4>
-                  <p className="text-gray-600 dark:text-gray-400">Universidade XYZ • 2018 - 2022</p>
+                  <h4 className="font-bold">Formação Java Developer</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Digital Innovations One • 2022 - 2023</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6">
-                  <h4 className="font-bold">Especialização em Desenvolvimento Web</h4>
-                  <p className="text-gray-600 dark:text-gray-400">Instituto ABC • 2022 - 2023</p>
+                  <h4 className="font-bold">Formação Python Back-end Developer</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Digital Innovations One • 2022 - 2023</p>
                 </CardContent>
               </Card>
+              <div className="mt-4">
+              <Card className="mb-4">
+                <CardContent className="p-6">
+                  <h4 className="font-bold">Formação React Developer</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Digital Innovations One • 2022 - 2023</p>
+                </CardContent>
+              </Card>
+              </div>
             </div>
           </div>
 
           <div className="md:col-span-1">
-            <div className="relative rounded-lg overflow-hidden h-80 md:h-96 shadow-lg">
+            <div className="relative rounded-lg overflow-hidden h-80 md:h-96 shadow-lg mb-4">
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                src="https://avatars.githubusercontent.com/u/99017433?v=4"
                 alt="Desenvolvedor trabalhando" 
                 className="object-cover w-full h-full"
               />
@@ -45,7 +53,7 @@ const About = () => {
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4 text-portfolio-darkBlue dark:text-white">Interesses</h3>
               <div className="flex flex-wrap gap-2">
-                {['JavaScript', 'React', 'Node.js', 'UX/UI', 'Acessibilidade', 'Performance Web'].map((interest) => (
+                {['Java', 'Python', 'MySql', 'Postgres', 'SpringBoot', 'Django', 'Django Rest Framework','JavaScript', 'UX/UI', 'Acessibilidade', 'Performance Web'].map((interest) => (
                   <span 
                     key={interest} 
                     className="bg-blue-100 text-portfolio-darkBlue px-3 py-1 rounded-full text-sm font-medium"
