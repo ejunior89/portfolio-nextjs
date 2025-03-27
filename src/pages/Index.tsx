@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <BrowserRouter basename="/portfolio-nextjs">
+    <BrowserRouter basename="">
       <div className="min-h-screen bg-white dark:bg-gray-900">
         <Header />
         <main>
